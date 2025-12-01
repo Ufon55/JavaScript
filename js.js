@@ -4,7 +4,7 @@
  
 // zde bude tvoje řešení
 
-let cislo1, cislo2;
+/*let cislo1, cislo2;
 
 cislo1 = prompt("zadej cislo");
 cislo2 = prompt("zadej cislo");
@@ -12,7 +12,7 @@ cislo2 = prompt("zadej cislo");
 cislo1=parseFloat(cislo1);
 cislo2=parseFloat(cislo2);
 
-console.log(cislo1 + cislo2);
+console.log(cislo1 + cislo2);*/
  
 /*****************************************************************/
 // Uloha: Zjisti, zda je číslo sudé nebo liché
@@ -22,6 +22,15 @@ console.log(cislo1 + cislo2);
 */
  
 // zde bude tvoje řešení
+
+/*let cislo
+
+cislo = prompt("zadej cislo")
+
+switch(cislo%2){
+    case 0: console.log("sude"); break
+    default: console.log("liche"); break
+}*/
  
  
 /*****************************************************************/
@@ -32,6 +41,14 @@ console.log(cislo1 + cislo2);
 */
  
 // zde bude tvoje řešení
+
+/*let stupne,fahrenheit;
+
+stupne = Number(prompt("zadej stupne celsia"))
+fahrenheit = parseFloat(stupne * 9/5 + 32)
+
+console.log("je", stupne, "celsia", "coz je", fahrenheit,"fahrenheit")*/
+
  
  
 /*****************************************************************/
@@ -42,6 +59,14 @@ console.log(cislo1 + cislo2);
 */
  
 // zde bude tvoje řešení
+
+/*let cislo;
+
+cislo=Number(prompt("zadej cislo"))
+
+if(cislo<0) { console.log("cislo je zaporne")}
+if(cislo>0) { console.log("cislo je kladne")}
+if(cislo==0) { console.log("cislo je nula")}*/
  
  
 /*****************************************************************/
@@ -52,7 +77,11 @@ console.log(cislo1 + cislo2);
 */
  
 // zde bude tvoje řešení
- 
+
+/*let string
+string = prompt("zadej slovo")
+if(string.includes('a')){ console.log(string)} */
+
  
 /*****************************************************************/
 // Uloha: Analyzátor textu
@@ -60,6 +89,12 @@ console.log(cislo1 + cislo2);
 * Požádej uživatele o slovo. Zjisti kolik kterých písmen obsahuje.
 * Použij .include() nad zadaným slovem. Vypiš do konzole.
 */
+
+// zde bude tvoje řešení
+
+let slovo
+slovo = prompt("zadej slovo")
+
  
 /*****************************************************************/
 // 6️⃣ Zjisti, zda zadané číslo je prvočíslo
@@ -69,6 +104,8 @@ console.log(cislo1 + cislo2);
 */
  
 // zde bude tvoje řešení
+
+
  
  
 /*****************************************************************/
