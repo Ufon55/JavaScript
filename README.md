@@ -1,2 +1,0 @@
-# JavaScript
-skola script
