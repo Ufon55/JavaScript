@@ -92,8 +92,8 @@ if(string.includes('a')){ console.log(string)} */
 
 // zde bude tvoje řešení
 
-let slovo
-slovo = prompt("zadej slovo")
+/*let slovo
+slovo = prompt("zadej slovo")*/
 
  
 /*****************************************************************/
@@ -111,27 +111,27 @@ slovo = prompt("zadej slovo")
 /*****************************************************************/
 // Příklady na práci se **scope (zastínění proměnné)**
  
-let x = 10; // globální scope
+//let x = 10; // globální scope
  
-function prikladScope() {
+/*function prikladScope() {
     let x = 5; // lokální scope – zastínění globální x
     console.log("Lokální x: " + x); // 5
 }
  
 prikladScope();
-console.log("Globální x: " + x); // 10
+console.log("Globální x: " + x); // 10*/
  
 /*****************************************************************/
 // Příklad **redeclaration proměnné**
  
-var a = 5;
-var a = 10; // var umožňuje redeklaraci
-console.log(a); // 10
+//var a = 5;
+//var a = 10; // var umožňuje redeklaraci
+//console.log(a); // 10
  
 // let b = 5;
 // let b = 10; // chybové, let neumožňuje redeklaraci
  
 /*****************************************************************/
 // # 🔹 Rozdíl mezi `==` a `===`
-console.log(5 == "5");  // true -> porovnává hodnotu, typ ignoruje
-console.log(5 === "5"); // false -> porovnává hodnotu i typ
+//console.log(5 == "5");  // true -> porovnává hodnotu, typ ignoruje
+//console.log(5 === "5"); // false -> porovnává hodnotu i typ
